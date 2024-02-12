@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AFA9D202B7A6952008E685F /* DequarantineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA9D1F2B7A6952008E685F /* DequarantineApp.swift */; };
+		5AFA9D222B7A6952008E685F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA9D212B7A6952008E685F /* ContentView.swift */; };
+		5AFA9D242B7A6953008E685F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA9D232B7A6953008E685F /* Assets.xcassets */; };
+		5AFA9D272B7A6953008E685F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA9D262B7A6953008E685F /* Preview Assets.xcassets */; };
+		5AFA9D322B7A6953008E685F /* DequarantineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA9D312B7A6953008E685F /* DequarantineTests.swift */; };
+		5AFA9D3C2B7A6953008E685F /* DequarantineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA9D3B2B7A6953008E685F /* DequarantineUITests.swift */; };
+		5AFA9D3E2B7A6953008E685F /* DequarantineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA9D3D2B7A6953008E685F /* DequarantineUITestsLaunchTests.swift */; };
+		5AFA9D4C2B7B00F1008E685F /* XAttr in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFA9D4B2B7B00F1008E685F /* XAttr */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFA9D2E2B7A6953008E685F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFA9D142B7A6952008E685F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFA9D1B2B7A6952008E685F;
+			remoteInfo = Dequarantine;
+		};
+		5AFA9D382B7A6953008E685F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFA9D142B7A6952008E685F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFA9D1B2B7A6952008E685F;
+			remoteInfo = Dequarantine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AFA9D1C2B7A6952008E685F /* Dequarantine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dequarantine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA9D1F2B7A6952008E685F /* DequarantineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequarantineApp.swift; sourceTree = "<group>"; };
+		5AFA9D212B7A6952008E685F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AFA9D232B7A6953008E685F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AFA9D262B7A6953008E685F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AFA9D282B7A6953008E685F /* Dequarantine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dequarantine.entitlements; sourceTree = "<group>"; };
+		5AFA9D2D2B7A6953008E685F /* DequarantineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DequarantineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA9D312B7A6953008E685F /* DequarantineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequarantineTests.swift; sourceTree = "<group>"; };
+		5AFA9D372B7A6953008E685F /* DequarantineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DequarantineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA9D3B2B7A6953008E685F /* DequarantineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequarantineUITests.swift; sourceTree = "<group>"; };
+		5AFA9D3D2B7A6953008E685F /* DequarantineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequarantineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFA9D192B7A6952008E685F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA9D4C2B7B00F1008E685F /* XAttr in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA9D2A2B7A6953008E685F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA9D342B7A6953008E685F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFA9D132B7A6952008E685F = {
+			isa = PBXGroup;
+			children = (
+				5AFA9D1E2B7A6952008E685F /* Dequarantine */,
+				5AFA9D302B7A6953008E685F /* DequarantineTests */,
+				5AFA9D3A2B7A6953008E685F /* DequarantineUITests */,
+				5AFA9D1D2B7A6952008E685F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFA9D1D2B7A6952008E685F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA9D1C2B7A6952008E685F /* Dequarantine.app */,
+				5AFA9D2D2B7A6953008E685F /* DequarantineTests.xctest */,
+				5AFA9D372B7A6953008E685F /* DequarantineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFA9D1E2B7A6952008E685F /* Dequarantine */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA9D1F2B7A6952008E685F /* DequarantineApp.swift */,
+				5AFA9D212B7A6952008E685F /* ContentView.swift */,
+				5AFA9D232B7A6953008E685F /* Assets.xcassets */,
+				5AFA9D282B7A6953008E685F /* Dequarantine.entitlements */,
+				5AFA9D252B7A6953008E685F /* Preview Content */,
+			);
+			path = Dequarantine;
+			sourceTree = "<group>";
+		};
+		5AFA9D252B7A6953008E685F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA9D262B7A6953008E685F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AFA9D302B7A6953008E685F /* DequarantineTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA9D312B7A6953008E685F /* DequarantineTests.swift */,
+			);
+			path = DequarantineTests;
+			sourceTree = "<group>";
+		};
+		5AFA9D3A2B7A6953008E685F /* DequarantineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA9D3B2B7A6953008E685F /* DequarantineUITests.swift */,
+				5AFA9D3D2B7A6953008E685F /* DequarantineUITestsLaunchTests.swift */,
+			);
+			path = DequarantineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFA9D1B2B7A6952008E685F /* Dequarantine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA9D412B7A6953008E685F /* Build configuration list for PBXNativeTarget "Dequarantine" */;
+			buildPhases = (
+				5AFA9D182B7A6952008E685F /* Sources */,
+				5AFA9D192B7A6952008E685F /* Frameworks */,
+				5AFA9D1A2B7A6952008E685F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dequarantine;
+			packageProductDependencies = (
+				5AFA9D4B2B7B00F1008E685F /* XAttr */,
+			);
+			productName = Dequarantine;
+			productReference = 5AFA9D1C2B7A6952008E685F /* Dequarantine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AFA9D2C2B7A6953008E685F /* DequarantineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA9D442B7A6953008E685F /* Build configuration list for PBXNativeTarget "DequarantineTests" */;
+			buildPhases = (
+				5AFA9D292B7A6953008E685F /* Sources */,
+				5AFA9D2A2B7A6953008E685F /* Frameworks */,
+				5AFA9D2B2B7A6953008E685F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFA9D2F2B7A6953008E685F /* PBXTargetDependency */,
+			);
+			name = DequarantineTests;
+			productName = DequarantineTests;
+			productReference = 5AFA9D2D2B7A6953008E685F /* DequarantineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AFA9D362B7A6953008E685F /* DequarantineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA9D472B7A6953008E685F /* Build configuration list for PBXNativeTarget "DequarantineUITests" */;
+			buildPhases = (
+				5AFA9D332B7A6953008E685F /* Sources */,
+				5AFA9D342B7A6953008E685F /* Frameworks */,
+				5AFA9D352B7A6953008E685F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFA9D392B7A6953008E685F /* PBXTargetDependency */,
+			);
+			name = DequarantineUITests;
+			productName = DequarantineUITests;
+			productReference = 5AFA9D372B7A6953008E685F /* DequarantineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFA9D142B7A6952008E685F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5AFA9D1B2B7A6952008E685F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5AFA9D2C2B7A6953008E685F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5AFA9D1B2B7A6952008E685F;
+					};
+					5AFA9D362B7A6953008E685F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5AFA9D1B2B7A6952008E685F;
+					};
+				};
+			};
+			buildConfigurationList = 5AFA9D172B7A6952008E685F /* Build configuration list for PBXProject "Dequarantine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AFA9D132B7A6952008E685F;
+			packageReferences = (
+				5AFA9D4A2B7B00F1008E685F /* XCRemoteSwiftPackageReference "swift-xattr" */,
+			);
+			productRefGroup = 5AFA9D1D2B7A6952008E685F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFA9D1B2B7A6952008E685F /* Dequarantine */,
+				5AFA9D2C2B7A6953008E685F /* DequarantineTests */,
+				5AFA9D362B7A6953008E685F /* DequarantineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFA9D1A2B7A6952008E685F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA9D272B7A6953008E685F /* Preview Assets.xcassets in Resources */,
+				5AFA9D242B7A6953008E685F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA9D2B2B7A6953008E685F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA9D352B7A6953008E685F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFA9D182B7A6952008E685F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA9D222B7A6952008E685F /* ContentView.swift in Sources */,
+				5AFA9D202B7A6952008E685F /* DequarantineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA9D292B7A6953008E685F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA9D322B7A6953008E685F /* DequarantineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA9D332B7A6953008E685F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA9D3C2B7A6953008E685F /* DequarantineUITests.swift in Sources */,
+				5AFA9D3E2B7A6953008E685F /* DequarantineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFA9D2F2B7A6953008E685F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFA9D1B2B7A6952008E685F /* Dequarantine */;
+			targetProxy = 5AFA9D2E2B7A6953008E685F /* PBXContainerItemProxy */;
+		};
+		5AFA9D392B7A6953008E685F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFA9D1B2B7A6952008E685F /* Dequarantine */;
+			targetProxy = 5AFA9D382B7A6953008E685F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AFA9D3F2B7A6953008E685F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AFA9D402B7A6953008E685F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5AFA9D422B7A6953008E685F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dequarantine/Dequarantine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dequarantine/Preview Content\"";
+				DEVELOPMENT_TEAM = H45FD9J9AZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sulliops.Dequarantine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5AFA9D432B7A6953008E685F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dequarantine/Dequarantine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dequarantine/Preview Content\"";
+				DEVELOPMENT_TEAM = H45FD9J9AZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sulliops.Dequarantine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5AFA9D452B7A6953008E685F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45FD9J9AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sulliops.DequarantineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dequarantine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dequarantine";
+			};
+			name = Debug;
+		};
+		5AFA9D462B7A6953008E685F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45FD9J9AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sulliops.DequarantineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dequarantine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dequarantine";
+			};
+			name = Release;
+		};
+		5AFA9D482B7A6953008E685F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45FD9J9AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sulliops.DequarantineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dequarantine;
+			};
+			name = Debug;
+		};
+		5AFA9D492B7A6953008E685F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45FD9J9AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sulliops.DequarantineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dequarantine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFA9D172B7A6952008E685F /* Build configuration list for PBXProject "Dequarantine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA9D3F2B7A6953008E685F /* Debug */,
+				5AFA9D402B7A6953008E685F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA9D412B7A6953008E685F /* Build configuration list for PBXNativeTarget "Dequarantine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA9D422B7A6953008E685F /* Debug */,
+				5AFA9D432B7A6953008E685F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA9D442B7A6953008E685F /* Build configuration list for PBXNativeTarget "DequarantineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA9D452B7A6953008E685F /* Debug */,
+				5AFA9D462B7A6953008E685F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA9D472B7A6953008E685F /* Build configuration list for PBXNativeTarget "DequarantineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA9D482B7A6953008E685F /* Debug */,
+				5AFA9D492B7A6953008E685F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AFA9D4A2B7B00F1008E685F /* XCRemoteSwiftPackageReference "swift-xattr" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jozefizso/swift-xattr";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AFA9D4B2B7B00F1008E685F /* XAttr */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AFA9D4A2B7B00F1008E685F /* XCRemoteSwiftPackageReference "swift-xattr" */;
+			productName = XAttr;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5AFA9D142B7A6952008E685F /* Project object */;
+}
